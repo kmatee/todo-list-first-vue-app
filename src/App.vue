@@ -65,6 +65,7 @@ const addTodo = () => {
               <div>Personal</div>
           </label>
         </div>
+        <input type="submit" value="Add todo">
       </form>
     </section>
 </main>
