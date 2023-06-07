@@ -54,9 +54,7 @@ const addTodo = () => {
               <span class="bubble business"></span>
               <div>Business</div>
           </label>
-        </div>
 
-        <div class="options">
           <label>
             <input
               type="radio"
