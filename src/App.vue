@@ -20,7 +20,11 @@ onMounted(() => {
 })
 
 const addTodo = () => {
+  if (input_content.value.trim() === '' || input_category.value === null){
+    return
+  }
 
+  console.log("added")
 }
 
 </script>
