@@ -82,6 +82,19 @@ watch(todos, newVal => {
         <input type="submit" value="Add todo">
       </form>
     </section>
+
+    <section class="todo-list">
+      <h3>TODO LIST</h3>
+      <div class="list">
+        <div v-for="todo in todos_asc" :class="`todo-item ${todo.done && 'done'}`">
+          <label>
+            <input type="checkbox" v-model="todo.done">
+            <span :class="`bubble ${todo.category}`"></span>
+          </label>
+        </div>
+
+      </div>
+    </section>
 </main>
 </template>
 
